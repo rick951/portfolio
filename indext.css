@@ -10,27 +10,38 @@ body {
     margin: 0;
     font-size: 28px;
     /* font-family: Arial, Helvetica, sans-serif; */
-    background-color: black;
-    background-image: url(https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.15752-9/s2048x2048/122751079_689450745319713_864077645905894122_n.jpg?_nc_cat=108&ccb=2&_nc_sid=ae9488&_nc_ohc=VvP4GkrIxa4AX-gQEyL&_nc_ht=scontent.ftpe7-3.fna&tp=7&oh=501325ffdd42afe706839dfc524faf4c&oe=5FB9BEE4);
-    background-repeat: no-repeat;
-    background-size: cover;
+
   }
   .flex{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    align-items: top;
     justify-content: space-around;
     /* border: 3px solid black; */
-    margin-top: 10px;
     flex-wrap: wrap;
+    
+  }
+  .picture{
+    height: 100vh;
+    background-color: black;
+    background-image: url(https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.15752-9/s2048x2048/122751079_689450745319713_864077645905894122_n.jpg?_nc_cat=108&ccb=2&_nc_sid=ae9488&_nc_ohc=VvP4GkrIxa4AX-gQEyL&_nc_ht=scontent.ftpe7-3.fna&tp=7&oh=501325ffdd42afe706839dfc524faf4c&oe=5FB9BEE4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .flex-item{
     font-size: 3rem;
     font-family: 'Dancing Script', cursive;
     text-decoration: none;
+  }
+  .flex-item a {
+    color: rgb(248, 54, 28);
+  }
+  .flex-item a:hover {
+    transition: 0.5s;
+    color: rgb(255, 150, 136);
   }
   .name{
     width: 100%;
