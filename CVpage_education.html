@@ -37,6 +37,7 @@
     <li><a href="CVpage_skill.html">Skill</a></li>
     <li><a href="CVpage_course.html">School course</a></li>
     <li><a href="CVpage_activity.html">Sport/Activity</a></li>
+    <li class="homepage"><a href="index.html">Home</a></li>
   </ul>
 </div>
 </body>
@@ -59,6 +60,7 @@
     background-image: url(https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.15752-9/s2048x2048/122751079_689450745319713_864077645905894122_n.jpg?_nc_cat=108&ccb=2&_nc_sid=ae9488&_nc_ohc=VvP4GkrIxa4AX-gQEyL&_nc_ht=scontent.ftpe7-3.fna&tp=7&oh=501325ffdd42afe706839dfc524faf4c&oe=5FB9BEE4);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 93vh;
   }
   .flex{
     display: flex;
@@ -101,16 +103,32 @@ ul {
 li {
   float: left;
 }
-
+.flex-item a {
+    color: rgb(248, 54, 28);
+  }
+  .flex-item a:hover {
+    transition: 0.5s;
+    color: rgb(196, 24, 2);
+  }
+.homepage{
+  background-color: rgb(101, 136, 42);
+  float: right;
+  font-size: 20px;
+}
+.homepage a:hover{
+  background-color: whitesmoke;
+  color: #111;
+}
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1.85vh 1.85vh;
   text-decoration: none;
 }
 
 li a:hover {
+  transition: 0.5s;
   background-color: #111;
 }
 </style>
