@@ -35,6 +35,8 @@ body {
     font-size: 3rem;
     font-family: 'Dancing Script', cursive;
     text-decoration: none;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   .flex-item a {
     color: rgb(248, 54, 28);
