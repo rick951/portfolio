@@ -74,7 +74,10 @@
   padding-top: auto;
   padding-bottom: auto;
   text-align: center;
-  overflow: auto;-
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contect1:hover {
@@ -92,6 +95,9 @@
   color: rgba(245, 245, 245, 0);
   text-align:center;
   overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contect2:hover {
   background: linear-gradient( rgba(0,0,0,0.9), rgba(0, 0, 0, 0.5) ),url(https://blog.handpick.io/content/images/2020/07/image.jpg);
@@ -108,6 +114,9 @@
   color: rgba(245, 245, 245, 0);
   text-align:center;
   overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contect3:hover {
   background: linear-gradient( rgba(0,0,0,0.9), rgba(0, 0, 0, 0.5) ),url(https://ulrichome.com/wp-content/uploads/2018/10/1.jpg);
@@ -124,6 +133,9 @@
   color: rgba(245, 245, 245, 0);
   text-align:center;
   overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contect4:hover {
   background: linear-gradient( rgba(0,0,0,0.9), rgba(0, 0, 0, 0.5) ),url(https://wallpaperaccess.com/full/367633.jpg);
